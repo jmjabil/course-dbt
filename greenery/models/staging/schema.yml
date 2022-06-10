@@ -1,0 +1,17 @@
+version: 2 
+
+models:
+  - name: addresses
+    description: the addresses
+  - name: events 
+    description: the events
+  - name: order_items
+    description: contents of the orders
+  - name: order 
+    description: the orders
+  - name: products 
+    description: the products
+  - name: promos 
+    description: the promos
+  - name: users
+    description: the users
