@@ -1,0 +1,17 @@
+How are our users moving through the product funnel?
+Total Sessions
+->Sessions with Product Page Views
+->Sessions with Add-to-Cart
+->Sessions with Transaction
+
+Which steps in the funnel have largest drop off points?
+The first 2 steps
+
+if your organization is using dbt, what are 1-2 things you might do differently / recommend to your organization based on learning from this course?
+I have been doing some of this along the way...
+I've added post-hooks to some of our models for ensuring Grants for the various roles are kept up-to-date. I am also adding Exposures and updating our dbt run jobs based on info learned in this course.
+
+
+how would you go about setting up a production/scheduled dbt run of your project in an ideal state? 
+We are already using dbt Cloud. 
+I am updating our scheduled dbt runs to ensure we are re-seeding each time as well as tests, freshness checks, and generated docs.
